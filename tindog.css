@@ -1,0 +1,170 @@
+body{
+     font-family: 'Unbounded', cursive;
+     line-height: 2;
+}
+h1{
+    line-height:1.5;
+    font-size: 3.5rem;
+}
+h2{
+    font-family: 'Montserrat-bold', sans-serif;
+    font: bold;
+    font-size:3rem ;
+    line-height:1.5 ;
+    
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    line-height:1.5;
+    font-size: 2rem;
+
+}
+p{
+    color: #8f8f8f;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+   
+    
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+
+}
+/*navbar styling*/
+.navbar{
+   padding :0 0  4.5rem;   /*we added 0 before in order to override bootstrap default padding and show equal alignment*/
+}                           
+/*navbar*/
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight:bold ;
+}
+/*navbar item */
+.nav-item{
+    padding: 20px 10px; 
+    font-weight: bold;        /*o for top and bottom spacing which is none and 15px for left and right*/
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light';
+}
+/*button*/
+.download-button{
+    margin: 10% 3% 5% 0;
+}
+/*title image */
+.title-image{
+    width: 350px;
+    transform: rotate(25deg);
+    padding-left: 30px;
+    position: absolute;
+    margin: 0 0 0 5%;
+    right: 20%;
+}
+
+
+/*features section */
+#features{
+    padding: 7% 10%;
+    background-color: #fff;
+    position: relative;
+    
+}
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon-check-sign{
+    color:#ed1f45;
+    margin-bottom: 3rem;
+}
+
+.icon-heart{
+    color:#ed1f45; 
+    margin-bottom: 3rem;
+
+}
+.icon-star-half-empty{
+    color:#ed1f45;
+    margin-bottom: 3rem;
+
+}
+.icon-check-sign:hover{
+    color: #ff4c68;
+}
+.icon-heart:hover{
+    color: #ff4c68;
+}
+.icon-star-half-empty:hover{
+    color: #ff4c68;
+}
+/*testimonials section */
+#testimonials{
+   
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;     
+/* designing padding carousel so that it can give padding to the arrows and then it will give space to click any where in that region and it will change its state. */
+}
+
+.dog-image{
+    width: 30%;
+    border-radius: 100%;
+    margin: 5% 10%  0 10%;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* pricing section  */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+/* cta section  */
+#cta{
+    text-align: center;
+    background-color:#ff4c68;
+    padding: 7% 13%;
+}
+
+.h3text{
+    color: #fff;
+    font-size: 3.5rem;
+    
+}
+/* footer section  */
+#footer{
+    padding: 7% 13%;
+    text-align: center;
+}
+.area{
+    margin: 20px 10px;
+}
+
+@media (max-width:1023px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
